@@ -1,0 +1,32 @@
+ion-content{
+    --background: 	#E5E4E2;
+    align-items: center;
+    font-size: 30px;
+
+    
+}
+img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+       
+    }
+
+#titulo{
+    margin-top: 25px;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-size: 10px;
+    
+}
+#contenido{
+    margin-top: 25px;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-size: 13px;
+    color: black;
+}
+
+ion-card-header{
+    text-align: center;
+}

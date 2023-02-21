@@ -1,0 +1,25 @@
+<app-header titulo="Perfil"></app-header>
+
+<ion-content>
+  <ion-card class="animate__animated animate__fadeIn animate__faster">
+    <ion-card-header>
+      <img src="http://127.0.0.1:8000/api/foto_arbitro/{{foto}}" />
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-label id="titulo">Nombre:</ion-label>
+      <br />
+      <ion-label id="contenido">{{nombre}}</ion-label>
+      <br />
+      <br />
+      <ion-label id="titulo">Correo:</ion-label>
+      <br />
+      <ion-label id="contenido">{{correo}}</ion-label>
+      <br />
+      <br />
+      <ion-label id="titulo">Edad:</ion-label>
+      <br />
+      <ion-label id="contenido">{{edad}}</ion-label>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

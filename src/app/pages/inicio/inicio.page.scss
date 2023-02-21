@@ -1,0 +1,19 @@
+
+  
+  ion-tab-button {
+    --color: var(--ion-color-medium);
+    --color-selected: var(--ion-color-myColor);
+  
+    &::before {
+      background-color: transparent;
+      display: block;
+      content: "";
+      margin: 0 auto;
+      width: 20px;
+      height: 1px;
+    }
+  
+    &.tab-selected::before {
+      background-color: var(--ion-color-myColor);
+    }
+  }

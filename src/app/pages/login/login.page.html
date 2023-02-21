@@ -1,0 +1,41 @@
+<app-splash-screen></app-splash-screen>
+
+<ion-content padding>
+  <div id="header">
+    <h1></h1>
+    <img src="assets/J-PYRSA4-08.png" />
+  </div>
+  <form id="form" (ngSubmit)="onSubmit()">
+    <ion-item class="ion-margin-bottom" lines="none">
+      <ion-input
+        placeholder="Correo"
+        type="email"
+        name="correo"
+        [(ngModel)]="arbitro.correo"
+        required
+      >
+      </ion-input>
+    </ion-item>
+
+    <ion-item class="ion-margin-bottom" lines="none">
+      <ion-input
+        [type]="showPassword ? 'text': 'password'"
+        placeholder="Contraseña"
+        name="contrasena"
+        [(ngModel)]="arbitro.contrasena"
+        required
+      >
+      </ion-input>
+
+      <ion-icon
+        [name]="passwordIcon"
+        slot="end"
+        (click)="togglePassword()"
+      ></ion-icon>
+    </ion-item>
+
+    <ion-button expand="block" fill="clear" shape="round" type="submit"
+      >Acceder</ion-button
+    >
+  </form>
+</ion-content>

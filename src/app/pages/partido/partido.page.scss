@@ -1,0 +1,56 @@
+ion-content{
+    --background: 	#E5E4E2;
+    align-items: center;
+    font-size: 30px;
+
+    
+}
+ion-card-header{
+    text-align: center;
+  
+
+}
+ion-card-content{
+    text-align: center;
+}
+
+ion-icon{
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+#jugador{
+    background: red;
+    width: 1px;;
+    left: 1px;
+    right: 1px;
+}
+ion-button{
+color: var(--ion-color-myColor);
+}
+ion-row{
+    justify-content: center;
+    margin-bottom: 1%;
+    text-align: center;
+    
+    }
+    img{
+        width: 55px;
+        height: 55px;
+         border-radius: 50%;
+    }
+    #col3{
+        padding-top: 20px;
+    }
+    #tiempo{
+        font-size: 10px;
+    }
+ 
+  #boton{
+    width: 30px;
+    height: 30px;
+}
+  
